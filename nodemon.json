@@ -1,0 +1,16 @@
+{
+  "restartable": "rs",
+  "delay": "0",
+  "ignore": [".git", "node_modules/", "dist/", "coverage/"],
+  "watch": ["src/"],
+  "execMap": {
+    "ts": "node -r ts-node/register"
+  },
+  "events": {
+    "start": "eslint ./src/**/*.{ts,js} --quiet --fix"
+  },
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "ext": "js,json,ts"
+}

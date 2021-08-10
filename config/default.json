@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "express": {
+    "http-port": 4000,
+    "protocol": "http",
+    "host": "localhost"
+  }
+}

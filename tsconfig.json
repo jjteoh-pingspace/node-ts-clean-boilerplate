@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es2017",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "incremental": true,
+    "typeRoots": ["./node_modules/@types"],
+    "suppressImplicitAnyIndexErrors": true
+  }
+}
