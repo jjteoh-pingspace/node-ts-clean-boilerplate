@@ -1,14 +1,16 @@
 {
-  "name": "customer_service",
+  "name": "node-ts-clean-boilerplate",
   "version": "1.0.0",
-  "description": "ruwell microservices for customer service",
-  "repository": "https://github.com/pingspace/ruwell/tree/master/src/customer_service",
+  "description": "server-side boilerplate for nodejs + typescript with clean architecture",
+  "repository": "https://github.com/jjteoh-pingspace/node-ts-clean-boilerplate",
   "author": "The ARK",
   "license": "MIT",
   "private": true,
   "keywords": [
-    "ruwell",
-    "customer"
+    "nodejs",
+    "typescript",
+    "ts",
+    "clean architecture"
   ],
   "engines": {
     "node": "^12.18.3 || >=14.0.0",
@@ -20,10 +22,11 @@
     "build": "gulp",
     "debug": "nodemon --config nodemon.json --inspect-brk src/app.ts",
     "start:dev": "cross-env NODE_ENV=development nodemon",
-    "start:prod": "cross-env NODE_ENV=production gulp && cross-env NODE_ENV=production node ./dist/src/app.js",
+    "start:prod": "cross-env NODE_ENV=production gulp && cross-env NODE_ENV=production node ./dist/app.js",
     "lint": "gulp lint --verbose --fix",
     "lint:eslint": "eslint ./src/**/*.{ts,js} --quiet --fix",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "./node_modules/.bin/jest --coverage"
   },
   "config": {
     "commitizen": {

@@ -5,7 +5,7 @@ import helmet from 'helmet'
 import path from 'path'
 import { useContainer, useExpressServer } from 'routing-controllers'
 import Container from 'typedi'
-import { APIError } from '../../presentation/common/api-errors/api-error'
+import { APIError } from '../exceptions/api-error.exception'
 
 export class ExpressConfig {
   app: express.Express

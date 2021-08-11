@@ -14,5 +14,6 @@
     "incremental": true,
     "typeRoots": ["./node_modules/@types"],
     "suppressImplicitAnyIndexErrors": true
-  }
+  },
+  "exclude": ["node_modules", "tools/**", "test/**", "**/*.spec.ts", "jest.*"]
 }
