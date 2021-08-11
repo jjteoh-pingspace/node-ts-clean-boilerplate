@@ -1,5 +1,7 @@
 # Project Title
 
+[![version](https://img.shields.io/github/package-json/v/jjteoh-pingspace/node-ts-clean-boilerplate)](./package.json)
+
 This is a boilerplate for project wish to use nodeJS, Typescript, clean architecture. Its built on top of ExpressJS. Some common libraries are included in the project, please refer ```package.json``` for more details.
 
 <br>
